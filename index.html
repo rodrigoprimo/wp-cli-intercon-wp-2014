@@ -1955,7 +1955,7 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
 </pre></div>
 
 <p>Estrutura dos comandos:</p>
-<div class="highlight"><pre><span class="go">$ wp comando subcomando --assoc_arg1=value1 arg1</span>
+<div class="highlight"><pre><span class="go">$ wp comando subcomando --flag --assoc_arg1=value1 arg1</span>
 <span class="go">$ wp user get --format=json admin</span>
 </pre></div>
 
@@ -2244,8 +2244,8 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
 <div class="highlight"><pre><span class="go">$ wp db import dump.sql</span>
 </pre></div>
 
-<p>Roda uma query no banco:</p>
-<div class="highlight"><pre><span class="go">$ wp db query &quot;select * from wp_users&quot;</span>
+<p>Abre o shell do MySQL:</p>
+<div class="highlight"><pre><span class="go">$ wp db cli</span>
 </pre></div>
 </section>
             

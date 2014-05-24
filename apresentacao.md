@@ -144,7 +144,7 @@ Lista dos comandos disponíveis:
 Estrutura dos comandos:
 
     !shell-session
-    $ wp comando subcomando --assoc_arg1=value1 arg1
+    $ wp comando subcomando --flag --assoc_arg1=value1 arg1
     $ wp user get --format=json admin
 
 Ajuda de um comando:
@@ -264,10 +264,10 @@ Importa um arquivo SQL para a base de dados:
     !shell-session
     $ wp db import dump.sql
 
-Roda uma query no banco:
+Abre o shell do MySQL:
 
     !shell-session
-    $ wp db query "select * from wp_users"
+    $ wp db cli
 
 ---
 

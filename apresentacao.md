@@ -1,8 +1,8 @@
-# Gerenciando o WordPress com o WP-CLI
+# WP-CLI: o WordPress na linha de comando
 
 Rodrigo Primo
 
-WordCamp Belo Horizonte 2014
+Intercon WP 2014
 
 .fx: titleslide
 
@@ -76,9 +76,9 @@ Depuração:
     !shell-session
     $ wp shell
     wp> get_bloginfo('blogname')
-    string(13) "WordCamp"
+    string(13) "Intercon WP 2014"
     wp> get_the_title(1)
-    string(23) "WordCamp Belo Horizonte 2014"
+    string(23) "WP-CLI: o WordPress na linha de comando"
 
 ---
 
@@ -147,12 +147,12 @@ Estrutura dos comandos:
     $ wp comando subcomando --assoc_arg1=value1 arg1
     $ wp user get --format=json admin
 
-Ajuda de um comando específico:
+Ajuda de um comando:
 
     !shell-session
     $ wp help theme
 
-Ajuda de um sub-comando específico:
+Ajuda de um sub-comando:
 
     !shell-session
     $ wp help theme list

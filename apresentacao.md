@@ -2,7 +2,7 @@
 
 Rodrigo Primo
 
-Intercon WP 2014
+InterCon WP 2014
 
 .fx: titleslide
 
